@@ -64,31 +64,31 @@ export default function Page() {
               <p className="font-sans font-bold text-4xl flex justify-center py-[30px] lg:py-[60px] tracking-widest"
               >S<span className="underline decoration-blue-500 underline-offset-8 decoration-4">kill</span>s</p>
               <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-8 font-sans pb-4 lg:pb-0">
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-2 hover:scale-110 will-change-transform transition-all duration-200">
                       <i className="bx bxl-html5 text-8xl text-red-600"></i>
                       <p className="text-2xl">HTML5</p>
                   </div>
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-2 hover:scale-110 will-change-transform transition-all duration-200">
                       <i className="bx bxl-css3 text-8xl text-blue-600"></i>
                       <p className="text-2xl">CSS3</p>
                   </div>
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-2 hover:scale-110 will-change-transform transition-all duration-200">
                       <i className="bx bxl-javascript text-8xl text-yellow-600"></i>
                       <p className="text-2xl">JavaScript</p>
                   </div>
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-2 hover:scale-110 will-change-transform transition-all duration-200">
                       <i className="bx bxl-react text-8xl text-blue-500"></i>
                       <p className="text-2xl">ReactJS</p>
                   </div>
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-2 hover:scale-110 will-change-transform transition-all duration-200">
                       <i className="bx bxl-tailwind-css text-8xl text-blue-500"></i>
                       <p className="text-2xl">TailwindCSS</p>
                   </div>
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-2 hover:scale-110 will-change-transform transition-all duration-200">
                       <i className="bx bxl-c-plus-plus text-8xl text-blue-600"></i>
                       <p className="text-2xl">C++</p>
                   </div>
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-2 hover:scale-110 will-change-transform transition-all duration-200">
                       <Image src="python.svg" 
                               alt="Logo Python" 
                               width={450} 
@@ -97,11 +97,11 @@ export default function Page() {
                       />
                       <p className="text-2xl">Python</p>
                   </div>
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-2 hover:scale-110 will-change-transform transition-all duration-200">
                       <i className="bx bxl-git text-8xl text-red-600"></i>
                       <p className="text-2xl">Git</p>
                   </div>
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-2 hover:scale-110 will-change-transform transition-all duration-200">
                       <Image src="nextjs.svg" 
                               alt="NextJS"  
                               width={450} 
@@ -110,7 +110,7 @@ export default function Page() {
                       />
                       <p className="text-2xl">NextJS</p>
                   </div>
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-2 hover:scale-110 will-change-transform transition-all duration-200">
                       <i className="bx bxl-github text-8xl"></i>
                       <p className="text-2xl">Github</p>
                   </div>
