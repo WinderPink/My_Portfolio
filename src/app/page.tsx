@@ -123,7 +123,7 @@ export default function Page() {
 
       {/* Project  */}
       <div className="bg-white min-h-screen md:min-h-[80vh] px-6 md:pb-10">
-        <div className="font-bold text-4xl px-8 pt-8 pb-10 tracking-widest"><span className="underline decoration-blue-700 underline-offset-8 decoration-4">Proj</span>ect</div>
+        <div className="font-bold text-4xl px-8 pt-8 pb-10 tracking-widest text-black"><span className="underline decoration-blue-700 underline-offset-8 decoration-4">Proj</span>ect</div>
         <div className="shadow-[0_0_15px_5px_rgba(0,0,0,0.5)] md:shadow-none rounded-lg
                         md:grid grid-cols-5 gap-8 justify-center items-center">
           <div className="md:col-span-3">
@@ -149,7 +149,7 @@ export default function Page() {
       
       <div className="min-h-screen md:min-h-[82vh] bg-blue-200 grid grid-cols-1 md:grid-cols-2 items-center lg:px-1/9">
       {/* Contact Info  */}
-        <div className="flex flex-col gap-4 p-8 lg:px-[100px] xl:px-[180px] md:h-full md:pt-[70px] lg:py-[50px] text-black">
+        <div className="flex flex-col gap-4 p-8 lg:px-[100px] xl:px-[180px] md:h-full md:pt-[70px] lg:py-[50px] mt-8 text-black">
           <p className="font-bold text-3xl md:text-4xl tracking-wider md:mt-9">Contact Info</p>
           <p className="text-lg"><span><i className='bx bxs-map'></i></span> Address: Ha Noi City, Viet Nam</p>
           <p className="text-lg"><span><i className='bx bxs-envelope'></i></span> Email: chuhongphongk25@gmail.com</p>
