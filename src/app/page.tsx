@@ -27,11 +27,11 @@ export default function Page() {
              >About Me</button>
           </div>
           <div className="flex justify-center">
-            <Image src="/images/picture6.webp" 
-               className="hover:scale-105 transition cover my-8"
+            <Image src="/images/picture8.jpg" 
+               className="hover:scale-105 transition cover my-8 rounded-3xl"
                alt="Ảnh đại diện" 
-               width={400} 
-               height={400}
+               width={500} 
+               height={500}
             />
           </div>          
         </div>
@@ -40,13 +40,13 @@ export default function Page() {
       {/* About Me */}
       <div id="about" className="grid grid-cols-1 md:grid-cols-2 items-center content-center min-h-screen md:min-h-[82vh] bg-gray-200 px-16 md:px-8 lg:px-32 gap-4 md:gap-8 lg:gap-16">
         <Image src="/images/picture8.jpg" 
-              className="hover:scale-105 transition cover mx-auto lg:mx-0  pl-0 lg:pl-16 mt-8 lg:my-8" 
+              className="scale-x-[-1] order-2 md:order-none cover mx-auto lg:mx-0 pr-0 lg:pr-16 my-8" 
               alt="Ảnh đại diện"
               width={500} 
-              height={500}
+              height={500}            
         />
 
-        <div className="flex flex-col text-xl mb-4 text-black">
+        <div className="order-1 md:order-none flex flex-col text-xl md:mb-8 text-black">
           <p className="text-4xl font-bold py-[28px] text-center md:text-left">About Me</p>
           <p className="pb-2">
             I am a Frontend developer passionate about building modern web interfaces and optimizing user experiences. 
@@ -122,7 +122,7 @@ export default function Page() {
       </div>
 
       {/* Project  */}
-      <div className="bg-white min-h-screen md:min-h-[80vh] px-6 md:pb-10">
+      <div className="bg-white min-h-screen md:min-h-[80vh] px-6 pb-4 md:pb-10">
         <div className="font-bold text-4xl px-8 pt-8 pb-10 tracking-widest text-black"><span className="underline decoration-blue-700 underline-offset-8 decoration-4">Proj</span>ect</div>
         <div className="shadow-[0_0_15px_5px_rgba(0,0,0,0.5)] md:shadow-none rounded-lg
                         md:grid grid-cols-5 gap-8 justify-center items-center">
@@ -147,13 +147,13 @@ export default function Page() {
       {/* Contact  */}
 
       
-      <div className="min-h-screen md:min-h-[82vh] bg-blue-200 grid grid-cols-1 md:grid-cols-2 items-center lg:px-1/9">
+      <div className="min-h-screen md:min-h-[82vh] bg-blue-200 grid grid-cols-1 md:grid-cols-2 items-center lg:px-1/9 py-4">
       {/* Contact Info  */}
-        <div className="flex flex-col gap-4 p-8 lg:px-[100px] xl:px-[180px] md:h-full md:pt-[70px] lg:py-[50px] mt-8 text-black">
+        <div className="flex flex-col gap-4 p-8 lg:px-[100px] xl:px-[180px] md:h-full md:pt-[60px] lg:py-[50px] text-black">
           <p className="font-bold text-3xl md:text-4xl tracking-wider md:mt-9">Contact Info</p>
           <p className="text-lg"><span><i className='bx bxs-map'></i></span> Address: Ha Noi City, Viet Nam</p>
           <p className="text-lg"><span><i className='bx bxs-envelope'></i></span> Email: chuhongphongk25@gmail.com</p>
-          <p className="text-lg"><span><i className='bx bxs-phone'></i></span> Phone: 0328.999.752</p>
+          <p className="text-lg"><span><i className='bx bxs-phone'></i></span> Phone: 0979.895.665</p>
         </div>
 
         {/* Contact Me  */}
