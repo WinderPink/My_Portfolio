@@ -1,3 +1,4 @@
+"use client";
 import 'boxicons/css/boxicons.min.css';
 import Image from "next/image";
 
@@ -6,6 +7,7 @@ export default function Page() {
     <div>
       {/* Introduction */}
       <div className="bg-blue-50 min-h-screen md:min-h-[82vh]">
+
         <div className="flex items-center justify-center md:justify-start text-3xl md:text-5xl gap-2 pt-4 px-8">
             <i className="bx bxl-baidu"></i>
             <span className="flex space-x-4">
@@ -13,14 +15,16 @@ export default function Page() {
                 <span className="text-blue-500 font-bold font-sans">WEB</span>
             </span>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-x-10 px-8 lg:px-32">
           <div className="flex flex-col gap-3 lg:gap-4 font-sans font-bold text-center md:text-left pt-4 md:pt-0">
             <p className="text-3xl md:text-5xl">Hi, I am</p>
             <p className="text-5xl md:text-7xl">Hong Phong.</p>
             <p className="text-2xl md:text-4xl text-gray-500">I&rsquo;m A Web Developer</p>
             <button className="text-2xl p-[8px] bg-blue-600 w-[160px] text-white rounded-xl hover:scale-105
-             hover:bg-blue-700 transition-all duration-300 will-change-transform
-             mt-4 mx-auto md:ml-0">About Me</button>
+             hover:bg-blue-700 transition-all duration-300 will-change-transform mt-4 mx-auto md:ml-0"
+             onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
+             >About Me</button>
           </div>
           <div className="flex justify-center">
             <Image src="/images/picture6.webp" 
@@ -29,13 +33,12 @@ export default function Page() {
                width={400} 
                height={400}
             />
-          </div>
-          
+          </div>          
         </div>
       </div>
 
       {/* About Me */}
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center content-center min-h-screen md:min-h-[82vh] bg-gray-200 px-16 md:px-8 lg:px-32 gap-4 md:gap-8 lg:gap-16">
+      <div id="about" className="grid grid-cols-1 md:grid-cols-2 items-center content-center min-h-screen md:min-h-[82vh] bg-gray-200 px-16 md:px-8 lg:px-32 gap-4 md:gap-8 lg:gap-16">
         <Image src="/images/picture8.jpg" 
               className="hover:scale-105 transition cover mx-auto lg:mx-0  pl-0 lg:pl-16 mt-8 lg:my-8" 
               alt="Ảnh đại diện"
