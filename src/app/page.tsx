@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div>
       {/* Introduction */}
-      <div className="bg-blue-100 min-h-screen md:min-h-[82vh]">
+      <div className="bg-blue-50 min-h-screen md:min-h-[82vh]">
         <div className="flex items-center justify-center md:justify-start text-3xl md:text-5xl gap-2 pt-4 px-8">
             <i className="bx bxl-baidu"></i>
             <span className="flex space-x-4">
@@ -45,11 +45,11 @@ export default function Page() {
 
         <div className="flex flex-col text-xl mb-4">
           <p className="text-4xl font-bold py-[28px] text-center md:text-left">About Me</p>
-          <p className="text-justify pb-2">
+          <p className="pb-2">
             I am a Frontend developer passionate about building modern web interfaces and optimizing user experiences. 
             I continuously learn and improve to create smooth, refined, and user-friendly products.
           </p>
-          <p className="text-justify pb-2">
+          <p className="pb-2">
             I enjoy turning complex ideas into intuitive and engaging interfaces. 
             With a keen eye for detail, I focus on performance, accessibility, and seamless interactions to enhance user satisfaction.
           </p>
@@ -62,7 +62,7 @@ export default function Page() {
       <div className="min-h-screen md:min-h-[82vh] bg-gray-100">
           <div>
               <p className="font-sans font-bold text-4xl flex justify-center py-[30px] lg:py-[60px] tracking-widest"
-              >S<span className="underline decoration-blue-500 underline-offset-8">kill</span>s</p>
+              >S<span className="underline decoration-blue-500 underline-offset-8 decoration-4">kill</span>s</p>
               <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-8 font-sans pb-4 lg:pb-0">
                   <div className="flex flex-col items-center gap-2">
                       <i className="bx bxl-html5 text-8xl text-red-600"></i>
@@ -119,25 +119,41 @@ export default function Page() {
       </div>
 
       {/* Project  */}
-      <div>
-        <video className="w-full h-auto border-4 border-red-500" autoPlay loop muted>
-          <source src="/videos/Project.mp4" type="video/mp4"/>
-        </video>
+      <div className="min-h-screen md:min-h-[80vh] px-6 md:pb-10">
+        <div className="font-bold text-4xl px-8 pt-8 pb-10 tracking-widest"><span className="underline decoration-blue-700 underline-offset-8 decoration-4">Proj</span>ect</div>
+        <div className="shadow-[0_0_15px_5px_rgba(0,0,0,0.5)] md:shadow-none rounded-lg
+                        md:grid grid-cols-5 gap-8 justify-center items-center">
+          <div className="md:col-span-3">
+            <a href="https://dongyongbut.com.vn/" target="_blank">
+              <video className="w-full h-auto md:shadow-[0_0_15px_5px_rgba(0,0,0,0.5)]" autoPlay loop muted>
+                <source src="/videos/Project.mp4" type="video/mp4"/>
+              </video>
+            </a>
+            
+          </div>
+          
+          <div className="md:col-span-2 p-4 flex flex-col gap-4">
+            <p className="text-2xl md:text-3xl font-bold tracking-wide">Dong Y Ong But</p>
+            <p className="text-xl font-sans">A website specializing in traditional medicine, providing users with access to herbal remedies and natural therapies. 
+              Built with Next.js and Tailwind CSS, this project features a herbal remedy search, product ordering, online health consultations, and updates on traditional medicine news.</p>
+          </div>
 
+        </div>
       </div>
 
       {/* Contact  */}
 
       
-      <div className="min-h-screen md:min-h-[82vh] bg-blue-100 grid grid-cols-1 md:grid-cols-2 items-center lg:px-1/9">
-        <div className="flex flex-col gap-4 p-8 lg:px-[100px] xl:px-[180px] md:h-full md:pt-[60px] lg:pt-[50px]">
+      <div className="min-h-screen md:min-h-[82vh] bg-blue-200 grid grid-cols-1 md:grid-cols-2 items-center lg:px-1/9 mt-8">
+      {/* Contact Info  */}
+        <div className="flex flex-col gap-4 p-8 lg:px-[100px] xl:px-[180px] md:h-full md:pt-[70px] lg:py-[50px]">
           <p className="font-bold text-3xl md:text-4xl tracking-wider md:mt-9">Contact Info</p>
           <p className="text-lg"><span><i className='bx bxs-map'></i></span> Address: Ha Noi City, Viet Nam</p>
           <p className="text-lg"><span><i className='bx bxs-envelope'></i></span> Email: chuhongphongk25@gmail.com</p>
           <p className="text-lg"><span><i className='bx bxs-phone'></i></span> Phone: 0328.999.752</p>
         </div>
 
-
+        {/* Contact Me  */}
         <div className="bg-white p-8 rounded-2xl shadow-xl  w-[430px] md:w-[90%] lg:w-[500px] m-auto lg:mt-auto mb-8 lg:mb-auto">
           <h2 className="text-4xl font-bold text-center text-blue-600">Contact Me</h2>
           <p className="text-center text-gray-500 mt-2">Let’s create something amazing together!</p>
@@ -183,56 +199,9 @@ export default function Page() {
 
 
       {/* Footer  */}
-      <div className="bg-black text-white text-center py-4">
+      <div className="text-gray-500 bg-gray-900 text-center py-4">
         © 2025 MyPortfolio. All rights reserved.
-      </div>
-
-
-
-
-
-
-
-      <div className="bg-gray-900 text-white py-10 px-6">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        
-        {/* Cột 1: Logo & Giới thiệu */}
-        <div>
-          <h2 className="text-2xl font-bold">MyPortfolio</h2>
-          <p className="text-gray-400 mt-2">
-            Creating modern and stunning web experiences.
-          </p>
-        </div>
-
-        {/* Cột 2: Điều hướng nhanh */}
-        <div>
-          <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
-          <ul className="space-y-2">
-            <li><a href="#" className="hover:text-blue-400">Home</a></li>
-            <li><a href="#" className="hover:text-blue-400">About</a></li>
-            <li><a href="#" className="hover:text-blue-400">Projects</a></li>
-            <li><a href="#" className="hover:text-blue-400">Contact</a></li>
-          </ul>
-        </div>
-
-        {/* Cột 3: Mạng xã hội */}
-        <div>
-          <h3 className="text-lg font-semibold mb-2">Follow Me</h3>
-          <div className="flex space-x-4">
-            <a href="#" className="text-gray-400 hover:text-blue-400 text-2xl"><i className="bx bxl-facebook"></i></a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 text-2xl"><i className="bx bxl-linkedin"></i></a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 text-2xl"><i className="bx bxl-github"></i></a>
-          </div>
-        </div>
-
-      </div>
-
-      {/* Bản quyền */}
-      <div className="text-center text-gray-500 mt-8 border-t border-gray-700 pt-4">
-        © 2024 MyPortfolio. All rights reserved.
-      </div>
-    </div>
-
+      </div>  
     </div>
   );
 }
