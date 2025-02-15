@@ -135,7 +135,7 @@ export default function Page() {
             
           </div>
           
-          <div className="md:col-span-2 p-4 flex flex-col gap-4">
+          <div className="md:col-span-2 p-4 flex flex-col gap-4 text-black">
             <p className="text-2xl md:text-3xl font-bold tracking-wide">Dong Y Ong But</p>
             <p className="text-xl font-sans">A website specializing in traditional medicine, providing users with access to herbal remedies and natural therapies. 
               Built with Next.js and Tailwind CSS, this project features a herbal remedy search, product ordering, online health consultations, and updates on traditional medicine news.</p>
