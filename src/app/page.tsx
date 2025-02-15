@@ -135,9 +135,9 @@ export default function Page() {
             
           </div>
           
-          <div className="md:col-span-2 p-4 flex flex-col gap-4 text-black">
-            <p className="text-2xl md:text-3xl font-bold tracking-wide">Dong Y Ong But</p>
-            <p className="text-xl font-sans">A website specializing in traditional medicine, providing users with access to herbal remedies and natural therapies. 
+          <div className="md:col-span-2 p-4 flex flex-col gap-4">
+            <p className="text-2xl md:text-3xl font-bold tracking-wide text-black">Dong Y Ong But</p>
+            <p className="text-xl font-sans text-black">A website specializing in traditional medicine, providing users with access to herbal remedies and natural therapies. 
               Built with Next.js and Tailwind CSS, this project features a herbal remedy search, product ordering, online health consultations, and updates on traditional medicine news.</p>
           </div>
 
@@ -147,7 +147,7 @@ export default function Page() {
       {/* Contact  */}
 
       
-      <div className="min-h-screen md:min-h-[82vh] bg-blue-200 grid grid-cols-1 md:grid-cols-2 items-center lg:px-1/9 mt-8">
+      <div className="min-h-screen md:min-h-[82vh] bg-blue-200 grid grid-cols-1 md:grid-cols-2 items-center lg:px-1/9">
       {/* Contact Info  */}
         <div className="flex flex-col gap-4 p-8 lg:px-[100px] xl:px-[180px] md:h-full md:pt-[70px] lg:py-[50px] text-black">
           <p className="font-bold text-3xl md:text-4xl tracking-wider md:mt-9">Contact Info</p>
