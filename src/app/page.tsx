@@ -9,17 +9,17 @@ export default function Page() {
       <div className="bg-blue-50 min-h-screen md:min-h-[82vh]">
 
         <div className="flex items-center justify-center md:justify-start text-3xl md:text-5xl gap-2 pt-4 px-8">
-            <i className="bx bxl-baidu text-black"></i>
+            <i className="bx bxl-baidu"></i>
             <span className="flex space-x-4">
-                <span className="font-bold font-sans text-black">PORTFOLIO</span>
+                <span className="font-bold font-sans">PORTFOLIO</span>
                 <span className="text-blue-500 font-bold font-sans">WEB</span>
             </span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-x-10 px-8 lg:px-32">
           <div className="flex flex-col gap-3 lg:gap-4 font-sans font-bold text-center md:text-left pt-4 md:pt-0">
-            <p className="text-3xl md:text-5xl text-black">Hi, I am</p>
-            <p className="text-5xl md:text-7xl text-black">Hong Phong.</p>
+            <p className="text-3xl md:text-5xl">Hi, I am</p>
+            <p className="text-5xl md:text-7xl">Hong Phong.</p>
             <p className="text-2xl md:text-4xl text-gray-500">I&rsquo;m A Web Developer</p>
             <button className="text-2xl p-[8px] bg-blue-600 w-[160px] text-white rounded-xl hover:scale-105
              hover:bg-blue-700 transition-all duration-300 will-change-transform mt-4 mx-auto md:ml-0"
@@ -46,7 +46,7 @@ export default function Page() {
               height={500}
         />
 
-        <div className="flex flex-col text-xl mb-4 text-black">
+        <div className="flex flex-col text-xl mb-4">
           <p className="text-4xl font-bold py-[28px] text-center md:text-left">About Me</p>
           <p className="pb-2">
             I am a Frontend developer passionate about building modern web interfaces and optimizing user experiences. 
@@ -62,7 +62,7 @@ export default function Page() {
 
 
       {/* Skills */}
-      <div className="min-h-screen md:min-h-[82vh] bg-gray-100 text-black">
+      <div className="min-h-screen md:min-h-[82vh] bg-gray-100">
           <div>
               <p className="font-sans font-bold text-4xl flex justify-center py-[30px] lg:py-[60px] tracking-widest"
               >S<span className="underline decoration-blue-500 underline-offset-8 decoration-4">kill</span>s</p>
@@ -136,8 +136,8 @@ export default function Page() {
           </div>
           
           <div className="md:col-span-2 p-4 flex flex-col gap-4">
-            <p className="text-2xl md:text-3xl font-bold tracking-wide text-black">Dong Y Ong But</p>
-            <p className="text-xl font-sans text-black">A website specializing in traditional medicine, providing users with access to herbal remedies and natural therapies. 
+            <p className="text-2xl md:text-3xl font-bold tracking-wide">Dong Y Ong But</p>
+            <p className="text-xl font-sans">A website specializing in traditional medicine, providing users with access to herbal remedies and natural therapies. 
               Built with Next.js and Tailwind CSS, this project features a herbal remedy search, product ordering, online health consultations, and updates on traditional medicine news.</p>
           </div>
 
@@ -149,7 +149,7 @@ export default function Page() {
       
       <div className="min-h-screen md:min-h-[82vh] bg-blue-200 grid grid-cols-1 md:grid-cols-2 items-center lg:px-1/9">
       {/* Contact Info  */}
-        <div className="flex flex-col gap-4 p-8 lg:px-[100px] xl:px-[180px] md:h-full md:pt-[70px] lg:py-[50px] text-black">
+        <div className="flex flex-col gap-4 p-8 lg:px-[100px] xl:px-[180px] md:h-full md:pt-[70px] lg:py-[50px]">
           <p className="font-bold text-3xl md:text-4xl tracking-wider md:mt-9">Contact Info</p>
           <p className="text-lg"><span><i className='bx bxs-map'></i></span> Address: Ha Noi City, Viet Nam</p>
           <p className="text-lg"><span><i className='bx bxs-envelope'></i></span> Email: chuhongphongk25@gmail.com</p>
@@ -157,7 +157,7 @@ export default function Page() {
         </div>
 
         {/* Contact Me  */}
-        <div className="bg-white p-8 rounded-2xl shadow-xl w-[80%] md:w-[90%] lg:w-[500px] m-auto lg:mt-auto mb-8 lg:mb-auto">
+        <div className="bg-white p-8 rounded-2xl shadow-xl w-[90%] lg:w-[500px] m-auto lg:mt-auto mb-8 lg:mb-auto">
           <h2 className="text-4xl font-bold text-center text-blue-600">Contact Me</h2>
           <p className="text-center text-gray-500 mt-2">Let’s create something amazing together!</p>
 
