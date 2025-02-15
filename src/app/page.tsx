@@ -157,7 +157,7 @@ export default function Page() {
         </div>
 
         {/* Contact Me  */}
-        <div className="bg-white p-8 rounded-2xl shadow-xl  w-[430px] md:w-[90%] lg:w-[500px] m-auto lg:mt-auto mb-8 lg:mb-auto">
+        <div className="bg-white p-8 rounded-2xl shadow-xl w-[80%] md:w-[90%] lg:w-[500px] m-auto lg:mt-auto mb-8 lg:mb-auto">
           <h2 className="text-4xl font-bold text-center text-blue-600">Contact Me</h2>
           <p className="text-center text-gray-500 mt-2">Let’s create something amazing together!</p>
 
